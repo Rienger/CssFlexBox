@@ -1,0 +1,106 @@
+.title{
+  color: blue;
+  text-align: center;
+}
+
+
+.container1{
+  height: 600px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+  align-items: center;
+
+}
+
+.box1{
+  color: white;
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  border: 5px solid green;
+}
+
+
+
+
+
+.container2{
+  background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;        /*aligning horizontally (space-around, center, etc)*/
+  align-items: center;                  /*aligning vertically (flex-start, stretch, enter)*/
+  margin: 50px;
+
+}
+
+.box2{
+  color: white;
+  background-color: black;
+  width: 175px;
+  border: 5px solid green;
+}
+
+.a{
+  min-height: 50px;
+}
+
+.b{
+  min-height: 100px;
+}
+
+.c{
+  min-height: 150px;
+}
+
+
+
+
+
+
+
+.container3{
+  background-color: gray;
+  display: flex;
+  margin-bottom: 50px;
+
+
+
+}
+
+.box3{
+  color: white;
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  border: 5px solid green;
+  margin: 5px;
+}
+
+
+.a1{
+  min-height: 50px;
+  flex-shrink: 0;
+}
+
+.b1{
+  min-height: 100px;
+  flex-grow: 1;
+
+}
+
+.c1{
+  min-height: 150px;
+  flex-grow: 1;
+}
+
+
+
+
+
+/* align-self */
+
+/* shortcut is flex: 1 0 0   flex-grow, flex-shrink, flex-basis */
